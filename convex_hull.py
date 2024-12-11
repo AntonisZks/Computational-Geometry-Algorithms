@@ -13,7 +13,7 @@ class Convex_Hull:
   
   def plot(self, plot_edges: bool = True):
     """
-    Plot the convex hull. This function will plot the points and edges of the convex hull.
+    Plots the convex hull. This function will plot the points and edges of the convex hull.
     """
     plt.figure()
     plt.scatter([point.x for point in self.points], [point.y for point in self.points], color='#339AFF', s=10)
